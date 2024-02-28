@@ -1,0 +1,53 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+
+@font-face {
+	font-family: 'PFStardust';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/PFStardust.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.wrapper2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'PFStardust';
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+
+@font-face {
+	font-family: 'iceJaram-Rg';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.wrapper {
+	display: flex;
+	margin-top: 100px;
+	justify-content: center;
+	align-items: center;
+	font-family: 'iceJaram-Rg';
+}
+
+.content {
+	padding: 3rem;
+	font-size: 2rem;
+	border-radius: 1rem;
+	white-space: pre;
+}
+
+.content2 {
+	white-space: pre;
+}
