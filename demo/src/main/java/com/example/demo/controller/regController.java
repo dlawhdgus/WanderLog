@@ -28,7 +28,7 @@ public class regController {
 	
 	@GetMapping(value = "/reg")
 	public String RegView() {
-		return "regView.html";
+		return "regView";
 	}
 	
 	@PostMapping(value = "/reg")
@@ -36,6 +36,6 @@ public class regController {
 		user.setReg_date(date.toString());
 		LOGGER.info("2번 {} ", userService.ChkRegLogic(user));
 		
-		return "../static/index.html";
+		return "../static/index";
 	}
 }

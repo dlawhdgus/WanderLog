@@ -25,17 +25,17 @@ public class indexController {
 		
 		
 		
-		return "../static/index.html";
+		return "../static/index";
 	}
 	
 	@GetMapping(value = "/test")
 	public String Test() {
-		return "maps.html";
+		return "maps";
 	}
 	
 	@GetMapping(value = "/test2")
 	public String Test2() {
-		return "test2.html";
+		return "test2";
 	}
 	
 }
